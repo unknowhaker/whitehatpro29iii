@@ -12,22 +12,25 @@ function setup() {
     ground = new Ground(600,680,1200,10);
     stand = new Ground(900,600,350,10);
     stand1 = new Ground(1000,300,350,10);
-    ub1 = new Box(850,290,50,50);
-    ub2 = new Box(900,290,50,50);
-    ub3 = new Box(950,290,50,50);
-    ub4 = new Box(1000,290,50,50);
-    ub5 = new Box(1050,290,50,50);
-    ub6 = new Box(1100,290,50,50);
-    ub7 = new Box(1150,290,50,50);
-    ub8 = new Box(900,190,50,50);
-    ub9 = new Box(950,190,50,50);
-    ub10 = new Box(1000,190,50,50);
-    ub11 = new Box(1050,190,50,50);
-    ub12 = new Box(1100,190,50,50);
-    ub13 = new Box(950,140,50,50);
-    ub14 = new Box(1000,140,50,50);
-    ub15 = new Box(1050,140,50,50);
-    ub16 = new Box(1000,80,50,50);
+    
+    ub1 = new Box(850,250,50,50);
+    ub2 = new Box(900,250,50,50);
+    ub3 = new Box(950,250,50,50);
+    ub4 = new Box(1000,250,50,50);
+    ub5 = new Box(1050,250,50,50);
+    ub6 = new Box(1100,250,50,50);
+    ub7 = new Box(1150,250,50,50);
+    ub8 = new Box(900,200,50,50);
+    ub9 = new Box(950,200,50,50);
+    ub10 = new Box(1000,200,50,50);
+    ub11 = new Box(1050,200,50,50);
+    ub12 = new Box(1100,200,50,50);
+    ub13 = new Box(950,150,50,50);
+    ub14 = new Box(1000,150,50,50);
+    ub15 = new Box(1050,150,50,50);
+    ub16 = new Box(1000,100,50,50);
+    
+  
     box1 = new Box(750,550,50,50);
     box2 = new Box(800,480,50,50);
     box3 = new Box(850,480,50,50);
@@ -44,6 +47,7 @@ function setup() {
     box14 = new Box(900,420,50,50);
     box15 = new Box(950,420,50,50);
     box16 = new Box(900,350,50,50);
+    
     poli = new Poligon(50,200,20);
     //slingShot = new SlingShot(this.poli,{x:100,y:200});
     slingShot = new SlingShot(poli.body,{x:100,y:200});
